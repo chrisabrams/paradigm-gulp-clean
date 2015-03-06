@@ -1,6 +1,6 @@
 var sh = require('execSync')
 
-module.exports = (options) => {
+module.exports = function(options) {
 
   var gulp = options.gulp
 
