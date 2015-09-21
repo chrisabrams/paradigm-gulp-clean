@@ -1,6 +1,6 @@
 {
   "name": "paradigm-gulp-clean",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "execSync": "^1.0.2"
+
   }
 }

@@ -1,4 +1,4 @@
-var sh = require('execSync')
+var child_process = require('child_process')
 
 module.exports = function(options) {
 
@@ -6,12 +6,7 @@ module.exports = function(options) {
 
   gulp.task('clean', function(done) {
 
-    /*
-    Note, the gulp-clean task is janky
-    */
-    //src('./public/**/*', {read: false}).pipe(clean())
-
-    sh.run('rm -rf public')
+    child_process.execSync('rm -rf public')
 
     done()
 
